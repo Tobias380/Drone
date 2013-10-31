@@ -49,18 +49,18 @@ def Average () :
     AvgDist= ((distance1 + distance2 + distance3 + distance4 + distance5 + distance6 + distance7 + distance8 + distance9 + distance10)/10)
     return AvgDist
 
+#Start motors spinning
+GPIO.output(16, True)
+GPIO.output(22, False)
+GPIO.output(12, True)
+GPIO.output(13, False)
+Motor1 = GPIO.PWM (15,600)
+Motor2 = GPIO.PWM (18,600)
+Motor1.start(0)
+Motor2.start(0)
+
 try:
     while (True):
-        #Start motors spinning
-        GPIO.output(16, True)
-        GPIO.output(22, False)
-        GPIO.output(12, True)
-        GPIO.output(13, False)
-        Motor1 = GPIO.PWM (15,600)
-        Motor2 = GPIO.PWM (18,600)
-
-        Motor1.start(0)
-        Motor2.start(0)
         Height= Average()
         #print Height
         if (Height>10):
