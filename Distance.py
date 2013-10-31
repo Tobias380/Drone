@@ -1,0 +1,23 @@
+
+
+distance1= Measure()
+time.sleep(0.01)
+distance2= Measure()
+time.sleep(0.01)
+distance3= Measure()
+time.sleep(0.01)
+distance4= Measure()
+time.sleep(0.01)
+distance5= Measure()
+time.sleep(0.01)
+distance6= Measure()
+time.sleep(0.01)
+distance7= Measure()
+time.sleep(0.01)
+distance8= Measure()
+time.sleep(0.01)
+distance9= Measure()
+time.sleep(0.01)
+distance10= Measure()
+AvgDist= ((distance1 + distance2 + distance3 + distance4 + distance5 + distance6 + distance7 + distance8 + distance9 + distance10)/10)
+return AvgDist
