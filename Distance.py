@@ -38,33 +38,34 @@ def Measure2 ():
 def Average1 () :
     distance1= Measure1()
     print distance1
-    time.sleep(0.01)
+    time.sleep(0.)
     distance2= Measure1()
     print distance2
-    time.sleep(0.01)
+    time.sleep(0.1)
     distance3= Measure1()
     print distance3
-    time.sleep(0.01)
+    time.sleep(0.1)
     distance4= Measure1()
     print distance4
-    time.sleep(0.01)
+    time.sleep(0.1)
     distance5= Measure1()
     print distance5
-    time.sleep(0.01)
+    time.sleep(0.1)
     distance6= Measure1()
     print distance6
-    time.sleep(0.01)
+    time.sleep(0.1)
     distance7= Measure1()
     print distance7
-    time.sleep(0.01)
+    time.sleep(0.1)
     distance8= Measure1()
     print distance8
-    time.sleep(0.01)
+    time.sleep(0.1)
     distance9= Measure1()
     print distance9
-    time.sleep(0.01)
+    time.sleep(0.1)
     distance10= Measure1()
     print distance10
+    time.sleep(0.1)
     AvgDist= ((distance1 + distance2 + distance3 + distance4 + distance5 + distance6 + distance7 + distance8 + distance9 + distance10)/10)
     #AvgDist= ((distance1 + distance2 + distance3)/3)
     #Tolerance= AvgDist*0.1
@@ -95,33 +96,34 @@ def Average1 () :
 def Average2 () :
     distance1= Measure2()
     print distance1
-    time.sleep(0.01)
+    time.sleep(0.1)
     distance2= Measure2()
     print distance2
-    time.sleep(0.01)
+    time.sleep(0.1)
     distance3= Measure2()
     print distance3
-    time.sleep(0.01)
+    time.sleep(0.1)
     distance4= Measure2()
     print distance4
-    time.sleep(0.01)
+    time.sleep(0.1)
     distance5= Measure2()
     print distance5
-    time.sleep(0.01)
+    time.sleep(0.1)
     distance6= Measure2()
     print distance6
-    time.sleep(0.01)
+    time.sleep(0.1)
     distance7= Measure2()
-    print ditance7
-    time.sleep(0.01)
+    print distance7
+    time.sleep(0.1)
     distance8= Measure2()
     print distance8
-    time.sleep(0.01)
+    time.sleep(0.1)
     distance9= Measure2()
     print distance9
-    time.sleep(0.01)
+    time.sleep(0.1)
     distance10= Measure2()
     print distance10
+    time.sleep(0.1)
     AvgDist= ((distance1 + distance2 + distance3 + distance4 + distance5 + distance6 + distance7 + distance8 + distance9 + distance10)/10)
     #AvgDist= ((distance1 + distance2 + distance3)/3)
     #Tolerance=AvgDist*0.1
