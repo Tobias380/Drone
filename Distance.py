@@ -57,27 +57,28 @@ def Average1 () :
     distance10= Measure1()
     AvgDist= ((distance1 + distance2 + distance3 + distance4 + distance5 + distance6 + distance7 + distance8 + distance9 + distance10)/10)
     #AvgDist= ((distance1 + distance2 + distance3)/3)
-    Tolerance=AvgDist*0.1
-    if abs(distance1- AvgDist)> Tolerance
-       print ('Tolerance difference')
-    if abs(distance2- AvgDist)> Tolerance
-       print ('Tolerance difference')
-    if abs(distance3- AvgDist)> Tolerance
-       print ('Tolerance difference')
-    if abs(distance4- AvgDist)> Tolerance
-       print ('Tolerance difference')
-    if abs(distance5- AvgDist)> Tolerance
-       print ('Tolerance difference')
-    if abs(distance6- AvgDist)> Tolerance
-       print ('Tolerance difference')
-    if abs(distance7- AvgDist)> Tolerance
-       print ('Tolerance difference')
-    if abs(distance8- AvgDist)> Tolerance
-       print ('Tolerance difference')
-    if abs(distance9- AvgDist)> Tolerance
-       print ('Tolerance difference')
-    if abs(distance10- AvgDist)> Tolerance
-       print ('Tolerance difference')
+    Tolerance= AvgDist*0.1
+    
+    if abs(distance1- AvgDist)> Tolerance:
+        print 'Tolerance difference'
+    if abs(distance2- AvgDist)> Tolerance:
+        print 'Tolerance difference'
+    if abs(distance3- AvgDist)> Tolerance:
+       print 'Tolerance difference'
+    if abs(distance4- AvgDist)> Tolerance:
+       print 'Tolerance difference'
+    if abs(distance5- AvgDist)> Tolerance:
+       print 'Tolerance difference'
+    if abs(distance6- AvgDist)> Tolerance:
+       print 'Tolerance difference'
+    if abs(distance7- AvgDist)> Tolerance:
+       print 'Tolerance difference'
+    if abs(distance8- AvgDist)> Tolerance:
+       print 'Tolerance difference'
+    if abs(distance9- AvgDist)> Tolerance:
+       print 'Tolerance difference'
+    if abs(distance10- AvgDist)> Tolerance:
+       print 'Tolerance difference'
       
     return AvgDist
 
@@ -104,31 +105,32 @@ def Average2 () :
     AvgDist= ((distance1 + distance2 + distance3 + distance4 + distance5 + distance6 + distance7 + distance8 + distance9 + distance10)/10)
     #AvgDist= ((distance1 + distance2 + distance3)/3)
     Tolerance=AvgDist*0.1
-    if abs(distance1- AvgDist)> Tolerance
-       print ('Tolerance difference')
-    if abs(distance2- AvgDist)> Tolerance
-       print ('Tolerance difference')
-    if abs(distance3- AvgDist)> Tolerance
-       print ('Tolerance difference')
-    if abs(distance4- AvgDist)> Tolerance
-       print ('Tolerance difference')
-    if abs(distance5- AvgDist)> Tolerance
-       print ('Tolerance difference')
-    if abs(distance6- AvgDist)> Tolerance
-       print ('Tolerance difference')
-    if abs(distance7- AvgDist)> Tolerance
-       print ('Tolerance difference')
-    if abs(distance8- AvgDist)> Tolerance
-       print ('Tolerance difference')
-    if abs(distance9- AvgDist)> Tolerance
-       print ('Tolerance difference')
-    if abs(distance10- AvgDist)> Tolerance
-       print ('Tolerance difference')
+
+    if abs(distance1- AvgDist)> Tolerance:
+        print 'Tolerance difference'
+    if abs(distance2- AvgDist)> Tolerance:
+        print 'Tolerance difference'
+    if abs(distance3- AvgDist)> Tolerance:
+       print 'Tolerance difference'
+    if abs(distance4- AvgDist)> Tolerance:
+       print 'Tolerance difference'
+    if abs(distance5- AvgDist)> Tolerance:
+       print 'Tolerance difference'
+    if abs(distance6- AvgDist)> Tolerance:
+       print 'Tolerance difference'
+    if abs(distance7- AvgDist)> Tolerance:
+       print 'Tolerance difference'
+    if abs(distance8- AvgDist)> Tolerance:
+       print 'Tolerance difference'
+    if abs(distance9- AvgDist)> Tolerance:
+       print 'Tolerance difference'
+    if abs(distance10- AvgDist)> Tolerance:
+       print 'Tolerance difference'
 
     return AvgDist
 
 try:
-    while (True)
+    while True:
         Height1 = Average1()
         Height2 = Average2()
         print ('Distance=', Height1)
